@@ -1,0 +1,45 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "flyctl@latest": {
+      "last_modified": "2024-01-24T16:15:02Z",
+      "resolved": "github:NixOS/nixpkgs/5cd2baa57a9ff2d84f2615700434fa04f3067fdb#flyctl",
+      "source": "devbox-search",
+      "version": "0.1.143",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/mh1zr4h5mwnb266fv9mi1ry8gfzrmiij-flyctl-0.1.143"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/rxqi030kasz0sfpbmnk787pkqpl3y6ir-flyctl-0.1.143"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/hhb97fvpjm9xv58ghp1ggmqqpqdjc4y9-flyctl-0.1.143"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/mhp062cb3v8vvaavzf6x6g38sx7qppkc-flyctl-0.1.143"
+        }
+      }
+    },
+    "go@latest": {
+      "last_modified": "2024-01-27T14:55:31Z",
+      "resolved": "github:NixOS/nixpkgs/160b762eda6d139ac10ae081f8f78d640dd523eb#go",
+      "source": "devbox-search",
+      "version": "1.21.6",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/8m3wjb23sfbjpjsj4l82b4zh9xnw62hh-go-1.21.6"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/ia1z2slwgdgibad4z42rpd1dib7gk999-go-1.21.6"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/dm4s4dfrah5zhl6larnrbh07v76j4pgy-go-1.21.6"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/cw9dqybf9w6wp7827h23pb3ym8gs8h47-go-1.21.6"
+        }
+      }
+    }
+  }
+}

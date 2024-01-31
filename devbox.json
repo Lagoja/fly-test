@@ -1,0 +1,20 @@
+{
+  "packages": [
+    "flyctl@latest",
+    "go@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "build": [
+        "go build -o dist/example"
+      ],
+      "run": [
+        "./dist/example"
+      ]
+    }
+  },
+  "env_from": "jetpack-cloud"
+}
